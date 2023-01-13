@@ -12,6 +12,7 @@
         <module>config-server</module>
         <module>app-config-data</module>
         <module>common-config</module>
+        <module>playground</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
