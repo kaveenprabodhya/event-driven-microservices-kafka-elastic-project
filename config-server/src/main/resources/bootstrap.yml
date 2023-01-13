@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kaveenprabodhya/config-server-repository.git
+          clone-on-start: true
+          default-label: master
+    fail-fast: true
+    security:
+      user:
+        name: spring_cloud_user
+        password: springCloud_Pwd
