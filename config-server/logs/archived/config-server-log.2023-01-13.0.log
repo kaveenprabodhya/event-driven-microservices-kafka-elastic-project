@@ -1,0 +1,774 @@
+2023-01-13 01:27:43 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 01:27:44 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 01:27:46 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=70cadb33-a9f9-3d8f-bc80-48bf76f6f180
+2023-01-13 01:27:47 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 01:27:47 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 01:27:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 01:27:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 01:27:47 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 01:27:47 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2396 ms
+2023-01-13 01:27:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 01:27:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 01:27:52 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 9.749 seconds (process running for 10.83)
+2023-01-13 01:28:11 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 01:28:11 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 01:28:11 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-01-13 01:28:12 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-12112817354597131655\config-client-twitter_to_kafka.yml]' via location 'file:/C:/Users/KAVEEN~1/AppData/Local/Temp/config-repo-12112817354597131655/'
+2023-01-13 01:28:12 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-12112817354597131655\config-client.yml]' via location 'file:/C:/Users/KAVEEN~1/AppData/Local/Temp/config-repo-12112817354597131655/'
+2023-01-13 01:29:46 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-12112817354597131655\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 16:04:50 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 16:04:51 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 16:04:53 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=70cadb33-a9f9-3d8f-bc80-48bf76f6f180
+2023-01-13 16:04:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 16:04:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 16:04:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 16:04:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 16:04:53 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 16:04:53 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1773 ms
+2023-01-13 16:04:58 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 16:04:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 16:04:58 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 9.483 seconds (process running for 10.654)
+2023-01-13 16:05:24 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 16:05:24 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 16:05:24 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-01-13 16:05:25 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-15005236675842422948\config-client-twitter_to_kafka.yml]' via location 'file:/C:/Users/KAVEEN~1/AppData/Local/Temp/config-repo-15005236675842422948/'
+2023-01-13 16:05:25 [http-nio-8888-exec-1] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-15005236675842422948\config-client.yml]' via location 'file:/C:/Users/KAVEEN~1/AppData/Local/Temp/config-repo-15005236675842422948/'
+2023-01-13 18:58:13 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-15005236675842422948\config-client-twitter_to_kafka.yml]' via location 'file:/C:/Users/KAVEEN~1/AppData/Local/Temp/config-repo-15005236675842422948/'
+2023-01-13 18:58:13 [http-nio-8888-exec-7] INFO  o.s.c.c.s.e.NativeEnvironmentRepository - Adding property source: Config resource 'file [C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-15005236675842422948\config-client.yml]' via location 'file:/C:/Users/KAVEEN~1/AppData/Local/Temp/config-repo-15005236675842422948/'
+2023-01-13 19:23:38 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-15005236675842422948\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 19:23:49 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 19:23:50 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 19:23:51 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 19:23:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 19:23:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 19:23:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 19:23:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 19:23:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 19:23:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1725 ms
+2023-01-13 19:23:52 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 64f232f8-4a0e-4192-9e59-13030063b818
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-01-13 19:23:53 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@497ed877, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3cb6e0ee, org.springframework.security.web.context.SecurityContextHolderFilter@28b523a, org.springframework.security.web.header.HeaderWriterFilter@3a0b6a, org.springframework.security.web.csrf.CsrfFilter@7a606260, org.springframework.security.web.authentication.logout.LogoutFilter@272778ae, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@68e2d03e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1eeb5818, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7b6141f0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@175c5c3a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63d677f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78d73b1b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fb64a52, org.springframework.security.web.access.ExceptionTranslationFilter@511da44f, org.springframework.security.web.access.intercept.AuthorizationFilter@236c098]
+2023-01-13 19:23:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 19:23:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 19:23:56 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 8.588 seconds (process running for 9.455)
+2023-01-13 20:52:03 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-10774524679003551105\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 20:52:10 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 20:52:12 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 20:52:14 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 20:52:15 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 20:52:15 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 20:52:15 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 20:52:15 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 20:52:15 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 20:52:15 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3380 ms
+2023-01-13 20:52:17 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 40c48e62-629a-4338-993c-0b73b58e6b63
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-01-13 20:52:17 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@794240e2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74a820bf, org.springframework.security.web.context.SecurityContextHolderFilter@4cc12db2, org.springframework.security.web.header.HeaderWriterFilter@c48b543, org.springframework.security.web.csrf.CsrfFilter@3a0b6a, org.springframework.security.web.authentication.logout.LogoutFilter@1373e3ee, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@a91119b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2cccf134, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5a30722c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2ee4706d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39d77de9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@785ed99c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f2ac7e0, org.springframework.security.web.access.ExceptionTranslationFilter@72a8361b, org.springframework.security.web.access.intercept.AuthorizationFilter@7b8ea1db]
+2023-01-13 20:52:23 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 20:52:23 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 20:52:23 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 15.407 seconds (process running for 17.029)
+2023-01-13 20:53:07 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-5220019923912947462\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 20:53:14 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 20:53:17 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 20:53:19 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 20:53:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 20:53:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 20:53:20 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 20:53:20 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 20:53:20 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 20:53:20 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3714 ms
+2023-01-13 20:53:22 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 094f7d05-3c40-41ae-93bd-15870ed7dc48
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-01-13 20:53:22 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32ab408e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ad6443, org.springframework.security.web.context.SecurityContextHolderFilter@34a6d9db, org.springframework.security.web.header.HeaderWriterFilter@18ffca6c, org.springframework.security.web.csrf.CsrfFilter@27ec8754, org.springframework.security.web.authentication.logout.LogoutFilter@4652c74d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@29bbc63c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@28b523a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@78b03788, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@236c098, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@756808cc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@511da44f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f5dfe69, org.springframework.security.web.access.ExceptionTranslationFilter@310d57b1, org.springframework.security.web.access.intercept.AuthorizationFilter@755b5f30]
+2023-01-13 20:53:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 20:53:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 20:53:30 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 17.269 seconds (process running for 18.848)
+2023-01-13 20:54:13 [http-nio-8888-exec-4] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 20:54:13 [http-nio-8888-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 20:54:13 [http-nio-8888-exec-4] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-01-13 20:54:13 [http-nio-8888-exec-4] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [179] milliseconds.
+2023-01-13 21:01:08 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-7338274957441366330\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 21:01:15 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 21:01:18 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 21:01:20 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 21:01:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 21:01:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:01:21 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 21:01:21 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 21:01:21 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 21:01:21 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3580 ms
+2023-01-13 21:01:23 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: d2db4a21-34bb-4121-bf21-cfca34e0663f
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-01-13 21:01:23 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@78b03788, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f5dfe69, org.springframework.security.web.context.SecurityContextHolderFilter@756808cc, org.springframework.security.web.header.HeaderWriterFilter@5f8f1712, org.springframework.security.web.csrf.CsrfFilter@19662208, org.springframework.security.web.authentication.logout.LogoutFilter@5ea7bc4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2cccf134, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@63d677f5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@571a663c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@120aa40b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5012c571, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a0b6a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a788fe0, org.springframework.security.web.access.ExceptionTranslationFilter@18ffca6c, org.springframework.security.web.access.intercept.AuthorizationFilter@272778ae]
+2023-01-13 21:01:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:01:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 21:01:30 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 16.917 seconds (process running for 18.444)
+2023-01-13 21:02:27 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-145936661825381189\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 21:02:35 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 21:02:38 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 21:02:40 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 21:02:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 21:02:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:02:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 21:02:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 21:02:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 21:02:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3472 ms
+2023-01-13 21:02:43 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@39c87b42, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47fcefb3, org.springframework.security.web.context.SecurityContextHolderFilter@310d57b1, org.springframework.security.web.header.HeaderWriterFilter@595f9916, org.springframework.security.web.csrf.CsrfFilter@747f6c5a, org.springframework.security.web.authentication.logout.LogoutFilter@58d4238e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2c06b113, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@511da44f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@236c098, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6842c101, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18ffca6c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52ecc989, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68e2d03e, org.springframework.security.web.access.ExceptionTranslationFilter@5dbab232, org.springframework.security.web.access.intercept.AuthorizationFilter@696fad31]
+2023-01-13 21:02:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:02:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 21:02:50 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 16.82 seconds (process running for 18.453)
+2023-01-13 21:05:00 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 21:05:00 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 21:05:00 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-01-13 21:05:00 [http-nio-8888-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [218] milliseconds.
+2023-01-13 21:19:32 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-14913265815930132817\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 21:19:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 21:19:42 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 21:19:44 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 21:19:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 21:19:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:19:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 21:19:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 21:19:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 21:19:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3423 ms
+2023-01-13 21:19:47 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@68dfda77, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50cdfafa, org.springframework.security.web.context.SecurityContextHolderFilter@47fcefb3, org.springframework.security.web.header.HeaderWriterFilter@234cd86c, org.springframework.security.web.csrf.CsrfFilter@36478bce, org.springframework.security.web.authentication.logout.LogoutFilter@29c53c4f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@111cba40, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1373e3ee, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2e952845, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@c568f91, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68e2d03e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78b03788, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79252c83, org.springframework.security.web.access.ExceptionTranslationFilter@743c3520, org.springframework.security.web.access.intercept.AuthorizationFilter@2484dbb7]
+2023-01-13 21:19:50 [main] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Error occured cloning to base directory.
+org.eclipse.jgit.api.errors.TransportException: https://github.com/kaveenprabodhya/config-server-repository.git: cannot open git-upload-pack
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:246)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:325)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:191)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:656)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:361)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:282)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:71)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:11)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/kaveenprabodhya/config-server-repository.git: cannot open git-upload-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:749)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:151)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:103)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1462)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:235)
+	... 24 common frames omitted
+Caused by: java.net.UnknownHostException: No such host is known (github.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnection.execute(HttpClientConnection.java:274)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnection.getResponseCode(HttpClientConnection.java:251)
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:232)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:654)
+	... 29 common frames omitted
+2023-01-13 21:19:50 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: https://github.com/kaveenprabodhya/config-server-repository.git: cannot open git-upload-pack
+2023-01-13 21:19:50 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-13 21:19:50 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-01-13 21:19:50 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: https://github.com/kaveenprabodhya/config-server-repository.git: cannot open git-upload-pack
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:11)
+Caused by: org.eclipse.jgit.api.errors.TransportException: https://github.com/kaveenprabodhya/config-server-repository.git: cannot open git-upload-pack
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:246)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:325)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:191)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:656)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:361)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:282)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:71)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	... 16 common frames omitted
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/kaveenprabodhya/config-server-repository.git: cannot open git-upload-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:749)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:151)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:103)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1462)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:235)
+	... 24 common frames omitted
+Caused by: java.net.UnknownHostException: No such host is known (github.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnection.execute(HttpClientConnection.java:274)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnection.getResponseCode(HttpClientConnection.java:251)
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:232)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:654)
+	... 29 common frames omitted
+2023-01-13 21:20:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 21:20:43 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 21:20:45 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 21:20:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 21:20:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:20:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 21:20:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 21:20:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 21:20:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3536 ms
+2023-01-13 21:20:48 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@120aa40b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@32ab408e, org.springframework.security.web.context.SecurityContextHolderFilter@5f8f1712, org.springframework.security.web.header.HeaderWriterFilter@143fefaf, org.springframework.security.web.csrf.CsrfFilter@5bfc79cb, org.springframework.security.web.authentication.logout.LogoutFilter@75793f17, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@755b5f30, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6f1fa1d0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6ad6443, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@47fcefb3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52ecc989, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6486fe7b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@78b03788, org.springframework.security.web.access.ExceptionTranslationFilter@28768e25, org.springframework.security.web.access.intercept.AuthorizationFilter@6c4ce583]
+2023-01-13 21:20:54 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:20:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 21:20:54 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 16.581 seconds (process running for 18.395)
+2023-01-13 21:21:17 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 21:21:17 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 21:21:17 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-01-13 21:21:18 [http-nio-8888-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [148] milliseconds.
+2023-01-13 21:30:32 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-5986507541758355733\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 21:30:40 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 21:30:42 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 21:30:45 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 21:30:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 21:30:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:30:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 21:30:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 21:30:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 21:30:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3995 ms
+2023-01-13 21:30:47 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: f5554a7a-084d-4b6e-a995-75e234d9d2ee
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-01-13 21:30:48 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4fb64a52, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70b48eb3, org.springframework.security.web.context.SecurityContextHolderFilter@71d55b7e, org.springframework.security.web.header.HeaderWriterFilter@28b523a, org.springframework.security.web.csrf.CsrfFilter@595f9916, org.springframework.security.web.authentication.logout.LogoutFilter@743c3520, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ad6443, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@72a8361b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7b8ea1db, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@497ed877, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28ee882c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@681e913c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a91119b, org.springframework.security.web.access.ExceptionTranslationFilter@539c4830, org.springframework.security.web.access.intercept.AuthorizationFilter@32ab408e]
+2023-01-13 21:30:56 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:30:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 21:30:57 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 19.148 seconds (process running for 20.853)
+2023-01-13 21:30:58 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 21:30:58 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 21:30:58 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-01-13 21:30:58 [http-nio-8888-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [184] milliseconds.
+2023-01-13 21:34:06 [http-nio-8888-exec-2] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Could not fetch remote for master remote: https://github.com/kaveenprabodhya/config-server-repository.git
+2023-01-13 21:34:22 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-8836444944239951393\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 21:34:30 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 21:34:32 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 21:34:34 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 21:34:35 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 21:34:35 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:34:35 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 21:34:35 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 21:34:36 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 21:34:36 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3604 ms
+2023-01-13 21:34:37 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: eacc7b39-dd09-417f-a435-cf7e538953f7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-01-13 21:34:37 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@451e2fa9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@497ed877, org.springframework.security.web.context.SecurityContextHolderFilter@6f1fa1d0, org.springframework.security.web.header.HeaderWriterFilter@4645679e, org.springframework.security.web.csrf.CsrfFilter@3dec3f87, org.springframework.security.web.authentication.logout.LogoutFilter@29bbc63c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@236c098, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@29d070c7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3cb6e0ee, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1373e3ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52ba685a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28ee882c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b6141f0, org.springframework.security.web.access.ExceptionTranslationFilter@6486fe7b, org.springframework.security.web.access.intercept.AuthorizationFilter@47fcefb3]
+2023-01-13 21:34:52 [main] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Error occured cloning to base directory.
+org.eclipse.jgit.api.errors.TransportException: https://github.com/kaveenprabodhya/config-server-repository.git: cannot open git-upload-pack
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:246)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:325)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:191)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:656)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:361)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:282)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:71)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:11)
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/kaveenprabodhya/config-server-repository.git: cannot open git-upload-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:749)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:151)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:103)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1462)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:235)
+	... 24 common frames omitted
+Caused by: java.net.UnknownHostException: No such host is known (github.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnection.execute(HttpClientConnection.java:274)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnection.getResponseCode(HttpClientConnection.java:251)
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:232)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:654)
+	... 29 common frames omitted
+2023-01-13 21:34:52 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: https://github.com/kaveenprabodhya/config-server-repository.git: cannot open git-upload-pack
+2023-01-13 21:34:52 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-13 21:34:52 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-01-13 21:34:52 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'defaultEnvironmentRepository' defined in class path resource [org/springframework/cloud/config/server/config/DefaultRepositoryConfiguration.class]: https://github.com/kaveenprabodhya/config-server-repository.git: cannot open git-upload-pack
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1751)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:961)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:915)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:584)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:432)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1291)
+	at com.microservices.demo.config.server.ConfigServer.main(ConfigServer.java:11)
+Caused by: org.eclipse.jgit.api.errors.TransportException: https://github.com/kaveenprabodhya/config-server-repository.git: cannot open git-upload-pack
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:246)
+	at org.eclipse.jgit.api.CloneCommand.fetch(CloneCommand.java:325)
+	at org.eclipse.jgit.api.CloneCommand.call(CloneCommand.java:191)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.cloneToBasedir(JGitEnvironmentRepository.java:656)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.initClonedRepository(JGitEnvironmentRepository.java:361)
+	at org.springframework.cloud.config.server.environment.JGitEnvironmentRepository.afterPropertiesSet(JGitEnvironmentRepository.java:282)
+	at org.springframework.cloud.config.server.environment.MultipleJGitEnvironmentRepository.afterPropertiesSet(MultipleJGitEnvironmentRepository.java:71)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1797)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1747)
+	... 16 common frames omitted
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/kaveenprabodhya/config-server-repository.git: cannot open git-upload-pack
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:749)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:151)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:103)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1462)
+	at org.eclipse.jgit.api.FetchCommand.call(FetchCommand.java:235)
+	... 24 common frames omitted
+Caused by: java.net.UnknownHostException: No such host is known (github.com)
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(InetAddress.java:933)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1519)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(InetAddress.java:852)
+	at java.base/java.net.InetAddress.getAllByName0(InetAddress.java:1509)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1367)
+	at java.base/java.net.InetAddress.getAllByName(InetAddress.java:1301)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnection.execute(HttpClientConnection.java:274)
+	at org.eclipse.jgit.transport.http.apache.HttpClientConnection.getResponseCode(HttpClientConnection.java:251)
+	at org.eclipse.jgit.util.HttpSupport.response(HttpSupport.java:232)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:654)
+	... 29 common frames omitted
+2023-01-13 21:36:59 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 21:37:01 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 21:37:04 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 21:37:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 21:37:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:37:05 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 21:37:05 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 21:37:05 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 21:37:05 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3888 ms
+2023-01-13 21:37:06 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: cbf35cef-8ddd-4afe-abbb-07d118d227bc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-01-13 21:37:07 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@70b48eb3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b8ea1db, org.springframework.security.web.context.SecurityContextHolderFilter@2997ddfc, org.springframework.security.web.header.HeaderWriterFilter@52ba685a, org.springframework.security.web.csrf.CsrfFilter@2055833f, org.springframework.security.web.authentication.logout.LogoutFilter@6842c101, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@78b03788, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@36478bce, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@a91119b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3cb6e0ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78d73b1b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@29d070c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77083e41, org.springframework.security.web.access.ExceptionTranslationFilter@6f1fa1d0, org.springframework.security.web.access.intercept.AuthorizationFilter@6ad6443]
+2023-01-13 21:37:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:37:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 21:37:14 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 17.312 seconds (process running for 18.987)
+2023-01-13 21:37:57 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 21:37:57 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 21:37:57 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-01-13 21:37:57 [http-nio-8888-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [177] milliseconds.
+2023-01-13 21:58:24 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-10664240261557659340\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 21:58:34 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 21:58:37 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 21:58:39 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 21:58:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 21:58:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:58:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 21:58:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 21:58:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 21:58:40 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3489 ms
+2023-01-13 21:58:42 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@58a3d521, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@14d8e132, org.springframework.security.web.context.SecurityContextHolderFilter@2cccf134, org.springframework.security.web.header.HeaderWriterFilter@755b5f30, org.springframework.security.web.csrf.CsrfFilter@34edd065, org.springframework.security.web.authentication.logout.LogoutFilter@77083e41, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6650a6c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@32ab408e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7f4a1cac, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5333f08f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@743c3520, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39c87b42, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a1a412e, org.springframework.security.web.access.ExceptionTranslationFilter@785ed99c, org.springframework.security.web.access.intercept.AuthorizationFilter@2ee4706d]
+2023-01-13 21:58:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 21:58:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 21:58:49 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 16.914 seconds (process running for 19.189)
+2023-01-13 22:05:20 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 22:05:20 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 22:05:20 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2023-01-13 22:05:20 [http-nio-8888-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [224] milliseconds.
+2023-01-13 22:09:05 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-5876814040551317393\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 22:09:10 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 22:09:11 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 22:09:12 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 22:09:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 22:09:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:09:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 22:09:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 22:09:13 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 22:09:13 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1706 ms
+2023-01-13 22:09:14 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@194012a2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55296b50, org.springframework.security.web.context.SecurityContextHolderFilter@1eeb5818, org.springframework.security.web.header.HeaderWriterFilter@34edd065, org.springframework.security.web.csrf.CsrfFilter@34a6d9db, org.springframework.security.web.authentication.logout.LogoutFilter@120aa40b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@69a5c6be, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@696fad31, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@60591e1b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@231df705, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@58d4238e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75793f17, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29c53c4f, org.springframework.security.web.access.ExceptionTranslationFilter@78d73b1b, org.springframework.security.web.access.intercept.AuthorizationFilter@175c5c3a]
+2023-01-13 22:09:17 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:09:17 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 22:09:18 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 9.188 seconds (process running for 10.07)
+2023-01-13 22:09:41 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 22:09:41 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 22:09:41 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-01-13 22:09:41 [http-nio-8888-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+2023-01-13 22:09:59 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-14931385661247691829\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 22:10:04 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 22:10:07 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 22:10:09 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 22:10:09 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 22:10:09 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:10:09 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 22:10:09 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 22:10:09 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 22:10:09 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1875 ms
+2023-01-13 22:10:11 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3cb6e0ee, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b6141f0, org.springframework.security.web.context.SecurityContextHolderFilter@52ba685a, org.springframework.security.web.header.HeaderWriterFilter@539c4830, org.springframework.security.web.csrf.CsrfFilter@5dbab232, org.springframework.security.web.authentication.logout.LogoutFilter@2cccf134, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@120aa40b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@44dfdd58, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4fb64a52, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@69a5c6be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@71d55b7e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@238291d4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70b48eb3, org.springframework.security.web.access.ExceptionTranslationFilter@4645679e, org.springframework.security.web.access.intercept.AuthorizationFilter@68e2d03e]
+2023-01-13 22:10:14 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:10:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 22:10:14 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 11.305 seconds (process running for 12.246)
+2023-01-13 22:12:50 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 22:12:50 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 22:12:50 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-01-13 22:12:50 [http-nio-8888-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [134] milliseconds.
+2023-01-13 22:13:51 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-11367795500547031360\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 22:13:57 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 22:13:58 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 22:13:59 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 22:14:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 22:14:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:14:00 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 22:14:00 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 22:14:00 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 22:14:00 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1676 ms
+2023-01-13 22:14:01 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4fb64a52, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70b48eb3, org.springframework.security.web.context.SecurityContextHolderFilter@71d55b7e, org.springframework.security.web.header.HeaderWriterFilter@28b523a, org.springframework.security.web.csrf.CsrfFilter@595f9916, org.springframework.security.web.authentication.logout.LogoutFilter@743c3520, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ad6443, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@72a8361b, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7b8ea1db, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@497ed877, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28ee882c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@681e913c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@a91119b, org.springframework.security.web.access.ExceptionTranslationFilter@539c4830, org.springframework.security.web.access.intercept.AuthorizationFilter@32ab408e]
+2023-01-13 22:14:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:14:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 22:14:04 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 8.717 seconds (process running for 9.684)
+2023-01-13 22:14:49 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 22:14:49 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 22:14:49 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-01-13 22:17:56 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 22:17:58 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 22:17:59 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 22:17:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 22:17:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:17:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 22:17:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 22:17:59 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 22:17:59 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1770 ms
+2023-01-13 22:18:00 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@129c4d19, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11810917, org.springframework.security.web.context.SecurityContextHolderFilter@571a663c, org.springframework.security.web.header.HeaderWriterFilter@6ad6443, org.springframework.security.web.csrf.CsrfFilter@2c06b113, org.springframework.security.web.authentication.logout.LogoutFilter@4f2ac7e0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7f4a1cac, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@70b48eb3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@13278a41, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@509a6095, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@430df350, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@451e2fa9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a31ed12, org.springframework.security.web.access.ExceptionTranslationFilter@120aa40b, org.springframework.security.web.access.intercept.AuthorizationFilter@14d8e132]
+2023-01-13 22:18:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:18:04 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-01-13 22:18:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:18:04 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-01-13 22:18:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:18:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:18:04 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-01-13 22:18:04 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8888 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8888 or configure this application to listen on another port.
+
+2023-01-13 22:18:14 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-17363278108100266583\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 22:18:18 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 22:18:19 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 22:18:21 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 22:18:21 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 22:18:21 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:18:21 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 22:18:21 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 22:18:21 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 22:18:21 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1860 ms
+2023-01-13 22:18:22 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@451e2fa9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@497ed877, org.springframework.security.web.context.SecurityContextHolderFilter@6f1fa1d0, org.springframework.security.web.header.HeaderWriterFilter@4645679e, org.springframework.security.web.csrf.CsrfFilter@3dec3f87, org.springframework.security.web.authentication.logout.LogoutFilter@29bbc63c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@236c098, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@29d070c7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3cb6e0ee, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1373e3ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52ba685a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28ee882c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b6141f0, org.springframework.security.web.access.ExceptionTranslationFilter@6486fe7b, org.springframework.security.web.access.intercept.AuthorizationFilter@47fcefb3]
+2023-01-13 22:18:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:18:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 22:18:26 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 8.689 seconds (process running for 9.519)
+2023-01-13 22:19:46 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 22:19:46 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 22:19:46 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-01-13 22:19:46 [http-nio-8888-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [104] milliseconds.
+2023-01-13 22:21:10 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-5161063256926181837\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 22:21:15 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 22:21:16 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 22:21:17 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 22:21:18 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 22:21:18 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:21:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 22:21:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 22:21:18 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 22:21:18 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1660 ms
+2023-01-13 22:21:19 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@129c4d19, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11810917, org.springframework.security.web.context.SecurityContextHolderFilter@571a663c, org.springframework.security.web.header.HeaderWriterFilter@6ad6443, org.springframework.security.web.csrf.CsrfFilter@2c06b113, org.springframework.security.web.authentication.logout.LogoutFilter@4f2ac7e0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7f4a1cac, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@70b48eb3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@13278a41, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@509a6095, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@430df350, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@451e2fa9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a31ed12, org.springframework.security.web.access.ExceptionTranslationFilter@120aa40b, org.springframework.security.web.access.intercept.AuthorizationFilter@14d8e132]
+2023-01-13 22:21:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:21:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 22:21:22 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 8.42 seconds (process running for 9.282)
+2023-01-13 22:23:02 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 22:23:02 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 22:23:02 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2023-01-13 22:23:02 [http-nio-8888-exec-1] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [104] milliseconds.
+2023-01-13 22:23:33 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-16327886340919123618\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 22:23:37 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 22:23:38 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 22:23:40 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 22:23:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 22:23:40 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:23:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 22:23:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 22:23:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 22:23:40 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1708 ms
+2023-01-13 22:23:41 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6fbf5db2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@509a6095, org.springframework.security.web.context.SecurityContextHolderFilter@32ab408e, org.springframework.security.web.header.HeaderWriterFilter@236c098, org.springframework.security.web.csrf.CsrfFilter@4cc12db2, org.springframework.security.web.authentication.logout.LogoutFilter@64279ab, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@27898e13, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@497ed877, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@57cabdc3, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@50cdfafa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78b03788, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@430df350, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75bd28d, org.springframework.security.web.access.ExceptionTranslationFilter@39c87b42, org.springframework.security.web.access.intercept.AuthorizationFilter@5333f08f]
+2023-01-13 22:23:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:23:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 22:23:44 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 8.092 seconds (process running for 8.89)
+2023-01-13 22:23:59 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 22:23:59 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 22:23:59 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-01-13 22:24:21 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-10770860275209774541\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 22:24:26 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 22:24:27 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 22:24:28 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 22:24:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 22:24:28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:24:28 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 22:24:28 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 22:24:29 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 22:24:29 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1627 ms
+2023-01-13 22:24:29 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@129c4d19, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11810917, org.springframework.security.web.context.SecurityContextHolderFilter@571a663c, org.springframework.security.web.header.HeaderWriterFilter@6ad6443, org.springframework.security.web.csrf.CsrfFilter@2c06b113, org.springframework.security.web.authentication.logout.LogoutFilter@4f2ac7e0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7f4a1cac, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@70b48eb3, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@13278a41, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@509a6095, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@430df350, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@451e2fa9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a31ed12, org.springframework.security.web.access.ExceptionTranslationFilter@120aa40b, org.springframework.security.web.access.intercept.AuthorizationFilter@14d8e132]
+2023-01-13 22:24:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:24:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 22:24:33 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 8.144 seconds (process running for 8.947)
+2023-01-13 22:24:44 [http-nio-8888-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 22:24:44 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 22:24:44 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-01-13 22:24:44 [http-nio-8888-exec-2] WARN  o.a.c.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [108] milliseconds.
+2023-01-13 22:25:56 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-2314624025781804730\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 22:26:01 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 22:26:02 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 22:26:03 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 22:26:04 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 22:26:04 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:26:04 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 22:26:04 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 22:26:04 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 22:26:04 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1764 ms
+2023-01-13 22:26:05 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5faeeb56, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5396eeb1, org.springframework.security.web.context.SecurityContextHolderFilter@3cb6e0ee, org.springframework.security.web.header.HeaderWriterFilter@69a5c6be, org.springframework.security.web.csrf.CsrfFilter@3c18942, org.springframework.security.web.authentication.logout.LogoutFilter@58a3d521, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@79252c83, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@55296b50, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@279126f5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2365ea38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4fb64a52, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@77083e41, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7781263c, org.springframework.security.web.access.ExceptionTranslationFilter@1373e3ee, org.springframework.security.web.access.intercept.AuthorizationFilter@2e952845]
+2023-01-13 22:26:08 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:26:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 22:26:08 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 8.55 seconds (process running for 9.333)
+2023-01-13 22:26:23 [http-nio-8888-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 22:26:23 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 22:26:23 [http-nio-8888-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-01-13 22:38:40 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-4728361186212241948\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 22:38:45 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 22:38:46 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 22:38:48 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2043758e-b93e-39e3-b499-38577366a59f
+2023-01-13 22:38:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 22:38:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:38:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 22:38:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 22:38:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 22:38:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1666 ms
+2023-01-13 22:38:49 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2484dbb7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@111cba40, org.springframework.security.web.context.SecurityContextHolderFilter@2c06b113, org.springframework.security.web.header.HeaderWriterFilter@5ea7bc4, org.springframework.security.web.csrf.CsrfFilter@52ba685a, org.springframework.security.web.authentication.logout.LogoutFilter@497ed877, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2f0ccb34, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@234cd86c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@48e41b5d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@74a820bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@785ed99c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@272778ae, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@51e8d066, org.springframework.security.web.access.ExceptionTranslationFilter@4652c74d, org.springframework.security.web.access.intercept.AuthorizationFilter@2d130ac4]
+2023-01-13 22:38:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:38:53 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 22:38:53 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 9.036 seconds (process running for 9.858)
+2023-01-13 22:40:58 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 22:40:58 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 22:40:58 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-01-13 22:56:33 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-10975590261774653977\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
+2023-01-13 22:56:41 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-01-13 22:56:42 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2023-01-13 22:56:42 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2023-01-13 22:56:42 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-13 22:56:42 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-13 22:56:42 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-01-13 22:56:42 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-01-13 22:56:42 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+2023-01-13 22:56:42 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configServerClient [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-13 22:56:42 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-13 22:56:42 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [bootstrap.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-13 22:56:42 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-13 22:56:42 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2023-01-13 22:56:42 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2023-01-13 22:56:42 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2023-01-13 22:56:43 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+2023-01-13 22:56:43 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.algorithm, using default value: PBEWITHHMACSHA512ANDAES_256
+2023-01-13 22:56:43 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+2023-01-13 22:56:43 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+2023-01-13 22:56:43 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+2023-01-13 22:56:43 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+2023-01-13 22:56:43 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+2023-01-13 22:56:43 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.iv-generator-classname, using default value: org.jasypt.iv.RandomIvGenerator
+2023-01-13 22:56:43 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+2023-01-13 22:56:43 [main] INFO  c.m.demo.config.server.ConfigServer - No active profile set, falling back to 1 default profile: "default"
+2023-01-13 22:56:44 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=c6e77b60-c93e-3376-85f5-f0150ba778f5
+2023-01-13 22:56:44 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+2023-01-13 22:56:44 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2023-01-13 22:56:44 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2023-01-13 22:56:44 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource servletContextInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2023-01-13 22:56:44 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-13 22:56:44 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-01-13 22:56:44 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2023-01-13 22:56:44 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource cachedrandom [org.springframework.cloud.util.random.CachedRandomPropertySource] to EncryptablePropertySourceWrapper
+2023-01-13 22:56:44 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configServerClient [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-13 22:56:44 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-13 22:56:44 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-13 22:56:44 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource applicationConfig: [classpath:/application.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-13 22:56:44 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource springCloudDefaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-13 22:56:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2023-01-13 22:56:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:56:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-01-13 22:56:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.4]
+2023-01-13 22:56:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-01-13 22:56:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1642 ms
+2023-01-13 22:56:46 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7767bd4e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7708b66a, org.springframework.security.web.context.SecurityContextHolderFilter@1b46392c, org.springframework.security.web.header.HeaderWriterFilter@60deefed, org.springframework.security.web.csrf.CsrfFilter@7cf8f45a, org.springframework.security.web.authentication.logout.LogoutFilter@684ce74c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@787178b1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@101330ad, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@433ef204, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@573aeab2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f15f52a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@787d1f9c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4dd2ef54, org.springframework.security.web.access.ExceptionTranslationFilter@7ac058a0, org.springframework.security.web.access.intercept.AuthorizationFilter@437281c5]
+2023-01-13 22:56:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+2023-01-13 22:56:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.RefreshScopeRefreshedEventListener - Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source systemProperties refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source systemEnvironment refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source random refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source cachedrandom refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source configServerClient refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source springCloudClientHostInfo refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source applicationConfig: [classpath:/application.yml] refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source springCloudDefaultProperties refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source Config resource 'class path resource [bootstrap.yml]' via location 'optional:classpath:/' refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source applicationConfig: [classpath:/bootstrap.yml] refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2023-01-13 22:56:56 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource servletConfigInitParams [class org.springframework.core.env.PropertySource$StubPropertySource
+2023-01-13 22:56:56 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.web.context.support.ServletContextPropertySource] to EncryptableEnumerablePropertySourceWrapper
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.RefreshScopeRefreshedEventListener - Refreshing cached encryptable property sources on ServletWebServerInitializedEvent
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source systemProperties refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source systemEnvironment refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source random refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source cachedrandom refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source configServerClient refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source springCloudClientHostInfo refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source Config resource 'class path resource [bootstrap.yml]' via location 'optional:classpath:/' refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.c.CachingDelegateEncryptablePropertySource - Property Source applicationConfig: [classpath:/bootstrap.yml] refreshed
+2023-01-13 22:56:56 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource server.ports [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2023-01-13 22:56:56 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Skipping PropertySource configurationProperties [class org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource
+2023-01-13 22:56:56 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource springCloudDefaultProperties [org.springframework.cloud.bootstrap.BootstrapApplicationListener$ExtendedDefaultPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+2023-01-13 22:56:56 [main] INFO  c.m.demo.config.server.ConfigServer - Started ConfigServer in 15.364 seconds (process running for 16.208)
+2023-01-13 22:57:06 [http-nio-8888-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-13 22:57:06 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-01-13 22:57:06 [http-nio-8888-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2023-01-13 22:57:27 [Thread-4] WARN  o.s.c.c.s.e.MultipleJGitEnvironmentRepository - Failed to delete temporary directory on exit: java.nio.file.AccessDeniedException: C:\Users\KAVEEN~1\AppData\Local\Temp\config-repo-14160027748822352225\.git\objects\pack\pack-8931f3aa8e69a9d683db881909e2483b2d0c5656.idx
