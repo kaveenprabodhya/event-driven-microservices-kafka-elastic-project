@@ -6,8 +6,8 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.microservices.demo")
-public class ElasticSearchServiceApplication {
+public class KafkaToElasticServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootApplication.class, args);
+        SpringApplication.run(KafkaToElasticServiceApplication.class, args);
     }
 }
