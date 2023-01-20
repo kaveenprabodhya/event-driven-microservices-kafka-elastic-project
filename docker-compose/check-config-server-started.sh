@@ -15,10 +15,4 @@ while [[ ! $curlResult == "200" ]]; do
   curlResult=$(curl -s -o /dev/null -I -w "%{http_code}" http://config-server:8888/actuator/health)
 done
 
-#ls
-#
-#cd org/springframework || exit
-#
-#ls
-
 #./cnb/lifecycle/launcher
