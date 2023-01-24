@@ -32,18 +32,19 @@ services:
       - "5006:5006"
     volumes:
       - "./docker-logs:/workspace/kafka-to-elastic-service/logs"
+      - "./certs:/workspace/certs/ca"
       - "./check-kafka-topics-created.sh:/usr/local/bin/check-kafka-topics-created.sh"
     user: root
-    entrypoint: ["check-kafka-topics-created.sh"]
+#    entrypoint: ["check-kafka-topics-created.sh"]
     depends_on:
       - config-server
       - twitter-to-kafka-service
       - kafka-broker-1
       - kafka-broker-2
       - kafka-broker-3
-      - elastic-1
-      - elastic-2
-      - elastic-3
+      - es01
+      - es02
+      - es03
     environment:
       - "JAVA_OPTS=-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=*:5006 -Xms128m -Xmx256m"
       - "LOGGING_LEVEL_COM_MICROSERVICES_DEMO=info"
@@ -53,8 +54,11 @@ services:
       - "KAFKA-CONFIG_SCHEMA-REGISTRY-URL=http://schema-registry:8081"
       - "SPRING_CLOUD_CONFIG_URI=http://config-server:8888"
       - "ELASTIC-CONFIG_INDEX-NAME=twitter-index"
-      - "ELASTIC-CONFIG_CONNECTION-URL=http://elastic-1:9200"
-      - "ENCRYPT_KEY=${ENCRYPT_KEY}"
+      - "CERT_PATH=/workspace/certs/ca/http_ca.crt"
+      - "ELASTIC_USERNAME=elastic"
+      - "ELASTIC_PWD=qwerty@123"
+      - "ELASTIC-CONFIG_CONNECTION-URL=http://es01:9200"
+#      - "ENCRYPT_KEY=${ENCRYPT_KEY}"
     networks:
       - ${GLOBAL_NETWORK:-services}
   config-server:
