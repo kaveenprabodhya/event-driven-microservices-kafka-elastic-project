@@ -11,8 +11,10 @@ import org.apache.http.auth.UsernamePasswordCredentials;
 import org.apache.http.client.CredentialsProvider;
 import org.apache.http.impl.client.BasicCredentialsProvider;
 import org.elasticsearch.client.RestClient;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.env.Environment;
 import org.springframework.data.elasticsearch.client.elc.ElasticsearchTemplate;
 import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
 import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
@@ -29,6 +31,9 @@ import java.util.Objects;
 public class ElasticsearchConfig {
     private final ElasticConfigData elasticConfigData;
 
+    @Autowired
+    private Environment environment;
+
     public ElasticsearchConfig(ElasticConfigData configData) {
         this.elasticConfigData = configData;
     }
@@ -38,9 +43,11 @@ public class ElasticsearchConfig {
         final CredentialsProvider credentialsProvider =
                 new BasicCredentialsProvider();
         credentialsProvider.setCredentials(AuthScope.ANY,
-                new UsernamePasswordCredentials("elastic", "qwerty@123"));
+                new UsernamePasswordCredentials(
+                        Objects.requireNonNull(environment.getProperty("elastic-username")),
+                        environment.getProperty("elastic-pwd")));
 
-        File certFile = new File("E:\\New folder\\event-deriven microservices\\event-driven-elastic-kafka\\cert\\http_ca.crt");
+        File certFile = new File(Objects.requireNonNull(environment.getProperty("crt-path")));
 
         SSLContext
                 sslContext = TransportUtils
