@@ -34,3 +34,4 @@ build/
 
 
 *.log
+/kafka-to-elastic-service/certs
