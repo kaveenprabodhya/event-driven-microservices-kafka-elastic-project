@@ -14,6 +14,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 
+import static org.springframework.security.config.Customizer.withDefaults;
+
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig {
@@ -29,17 +31,16 @@ public class WebSecurityConfig {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        http.authorizeHttpRequests()
-                .requestMatchers("/**")
-                .hasRole("USER")
-                .and()
+        http.authorizeHttpRequests(authorize -> authorize
+                        .anyRequest().hasRole("USER"))
                 .csrf()
-                .disable();
+                .disable()
+                .httpBasic(withDefaults());
         return http.build();
     }
 
     @Bean
-    public UserDetailsService userDetailsService(){
+    public UserDetailsService userDetailsService() {
         UserDetails user = User.builder()
                 .username(userConfigData.getUsername())
                 .password(passwordEncoder().encode(userConfigData.getPassword()))
