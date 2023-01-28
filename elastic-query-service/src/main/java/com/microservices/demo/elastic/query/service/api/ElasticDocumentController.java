@@ -24,8 +24,8 @@ public class ElasticDocumentController {
         this.elasticQueryService = elasticQueryService;
     }
 
-    @GetMapping("/")
-    public @ResponseBody ResponseEntity<List<ElasticQueryServiceResponseModel>> getAllDocuments(){
+    @GetMapping
+    public @ResponseBody ResponseEntity<List<ElasticQueryServiceResponseModel>> getAllDocuments() {
         List<ElasticQueryServiceResponseModel> response = new ArrayList<>();
         logger.info("Elasticsearch returned {} of documents", response.size());
         return ResponseEntity.ok(response);
