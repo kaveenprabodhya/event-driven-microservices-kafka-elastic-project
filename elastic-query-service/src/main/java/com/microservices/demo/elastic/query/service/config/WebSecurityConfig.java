@@ -32,6 +32,7 @@ public class WebSecurityConfig {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests(authorize -> authorize
+                        .requestMatchers(pathsToIgnore).permitAll()
                         .anyRequest().hasRole("USER"))
                 .csrf()
                 .disable()
