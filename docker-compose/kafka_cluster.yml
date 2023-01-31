@@ -86,3 +86,22 @@ services:
       KAFKA_COMPRESSION_TYPE: producer
     networks:
       - ${GLOBAL_NETWORK:-kafka}
+
+  rest-proxy:
+    image: confluentinc/cp-kafka-rest:${KAFKA_VERSION}
+    depends_on:
+      - kafka-broker-1
+      - kafka-broker-2
+      - kafka-broker-3
+      - schema-registry
+    ports:
+      - 8082:8082
+    hostname: rest-proxy
+    container_name: rest-proxy
+    environment:
+      KAFKA_REST_HOST_NAME: rest-proxy
+      KAFKA_REST_BOOTSTRAP_SERVERS: 'kafka-broker-1:9092,kafka-broker-2:9092,kafka-broker-3:9092'
+      KAFKA_REST_LISTENERS: "http://rest-proxy:8082"
+      KAFKA_REST_SCHEMA_REGISTRY_URL: 'http://schema-registry:8081'
+    networks:
+      - ${GLOBAL_NETWORK:-kafka}
