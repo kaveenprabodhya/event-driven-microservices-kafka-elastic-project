@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: elastic-query-web-client
+  profiles:
+    active: elastic_query_web
+  cloud:
+    config:
+      name: elastic-query-web-client,config-client
+      uri: http://localhost:8888
+      username: spring_cloud_user
+      password: ENC(jTycxuxkkuKaaCGM1h8L8c8IdfIKZ1lqOTEBh7n6BVmwZ0PPCux4iQpv30qXm3TE)
+      fail-fast: true
+      retry:
+        initial-interval: 2500
+        max-attempts: 10
+        max-interval: 7000
+        multiplier: 1.5
+
+jasypt:
+  encryptor:
+    password: qwerty@123
