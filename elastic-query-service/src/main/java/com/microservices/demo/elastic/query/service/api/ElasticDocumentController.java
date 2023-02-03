@@ -13,6 +13,7 @@ import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotEmpty;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -25,6 +26,9 @@ public class ElasticDocumentController {
     private final ElasticQueryService elasticQueryService;
 
     private static final Logger logger = LoggerFactory.getLogger(ElasticDocumentController.class);
+
+    @Value("${server.port}")
+    private String port;
 
     public ElasticDocumentController(ElasticQueryService elasticQueryService) {
         this.elasticQueryService = elasticQueryService;
@@ -64,7 +68,7 @@ public class ElasticDocumentController {
     ResponseEntity<ElasticQueryServiceResponseModel>
     getDocumentById(@PathVariable @NotEmpty String id) {
         ElasticQueryServiceResponseModel elasticQueryServiceResponseModel = elasticQueryService.getDocumentById(id);
-        logger.debug("Elasticsearch returned document with id {}", id);
+        logger.debug("Elasticsearch returned document with id {} on port {}", id, port);
         return ResponseEntity.ok(elasticQueryServiceResponseModel);
     }
 
@@ -84,7 +88,7 @@ public class ElasticDocumentController {
     getDocumentByIdV2(@PathVariable @NotEmpty String id) {
         ElasticQueryServiceResponseModel elasticQueryServiceResponseModel = elasticQueryService.getDocumentById(id);
         ElasticQueryServiceResponseModelV2 responseModelV2 = getV2Model(elasticQueryServiceResponseModel);
-        logger.debug("Elasticsearch returned document with id {}", id);
+        logger.debug("Elasticsearch returned document with id {} on port {}", id, port);
         return ResponseEntity.ok(responseModelV2);
     }
 
@@ -104,7 +108,7 @@ public class ElasticDocumentController {
     getDocumentByText(@RequestBody @Valid ElasticQueryServiceRequestModel elasticQueryServiceRequestModel) {
         List<ElasticQueryServiceResponseModel> response =
                 elasticQueryService.getDocumentByText(elasticQueryServiceRequestModel.getText());
-        logger.info("Elasticsearch returned {} of documents", response.size());
+        logger.info("Elasticsearch returned {} of documents on port {}", response.size(), port);
         return ResponseEntity.ok(response);
     }
 
