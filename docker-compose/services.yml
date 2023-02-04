@@ -31,8 +31,9 @@ services:
       /bin/sh -c '
         apt-get update && apt-get install curl -y;
         until curl -s -o /dev/null -w '%{http_code}' http://rest-proxy:8082/topics/twitter-topic | grep 200 > /dev/null; do sleep 30; done; 
-        echo 'Topic is available.';
-        sleep 60;
+        echo "Topic is available.";
+        sleep 300;
+        echo "All done.";
       '
     networks:
       - ${GLOBAL_NETWORK:-services}
