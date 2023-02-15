@@ -4,7 +4,7 @@ services:
     image: jboss/keycloak:${KEYCLOAK_VERSION:-latest}
     hostname: keycloak-server
     ports:
-      - "8081:8081"
+      - "7171:8081"
     environment:
       - "KEYCLOAK_USER=admin"
       - "KEYCLOAK_PASSWORD=admin"
