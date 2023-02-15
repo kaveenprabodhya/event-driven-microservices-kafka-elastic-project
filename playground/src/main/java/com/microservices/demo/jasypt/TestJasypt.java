@@ -9,7 +9,7 @@ public class TestJasypt {
         pbeStringEncryptor.setPassword("qwerty@123");
         pbeStringEncryptor.setAlgorithm("PBEWithHMACSHA512AndAES_256");
         pbeStringEncryptor.setIvGenerator(new RandomIvGenerator());
-        String result = pbeStringEncryptor.encrypt("springCloud_Pwd");
+        String result = pbeStringEncryptor.encrypt("qwerty@123");
         System.out.println(result);
         System.out.println(pbeStringEncryptor.decrypt(result));
     }
