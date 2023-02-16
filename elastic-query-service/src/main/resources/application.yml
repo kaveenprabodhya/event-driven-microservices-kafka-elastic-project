@@ -5,3 +5,12 @@
 
 #security:
 #  paths-to-ignore: /api-docs/**, /swagger-ui/**, /swagger-resources/**, /swagger-ui.html, /v3/api-docs/**
+
+#spring:
+#  jpa:
+#    defer-datasource-initialization: true
+
+spring:
+  sql:
+    init:
+      mode: always
