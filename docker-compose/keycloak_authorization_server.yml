@@ -1,20 +1,23 @@
-version: '3.7'
+version: '3.9'
 services:
   keycloak-authorization-server:
     image: jboss/keycloak:${KEYCLOAK_VERSION:-latest}
     hostname: keycloak-server
+    container_name: keycloak-server
     ports:
-      - "7171:8081"
+      - "7171:7171"
     environment:
       - "KEYCLOAK_USER=admin"
       - "KEYCLOAK_PASSWORD=admin"
-      - "JAVA_OPTS=-Djboss.http.port=8081"
+      - "JAVA_OPTS=-Djboss.http.port=7171"
       - "DB_VENDOR=POSTGRES"
       - "DB_ADDR=host.docker.internal"
       - "DB_DATABASE=keycloak"
       - "DB_USER=keycloak"
       - "DB_SCHEMA=keycloak"
       - "DB_PASSWORD=keycloak"
+    networks:
+      - ${GLOBAL_NETWORK:-services}
 
 #  keycloak:
 #    image: quay.io/keycloak/keycloak:${KEYCLOAK_VERSION}
