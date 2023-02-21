@@ -6,7 +6,7 @@
     </div>
 
     <div sec:authorize="isAuthenticated()">
-        <p>Hello <span sec:authentication="principal.username" /><a th:href="@{/home}"> Let's get start searching!</a></p>
+        <p>Hello <span sec:authentication="principal.fullName" /><a th:href="@{/home}"> Let's get start searching!</a></p>
     </div>
 </div>
 

@@ -9,14 +9,13 @@ elastic-query-service:
     content-type: 'application/vnd.api.v1+json'
     accept-type: 'application/vnd.api.v1+json'
     query-type: 'ANALYTICS_DATABASE'
-#    query-type: 'KAFKA_STATE_STORE'
   query-from-kafka-state-store:
     method: GET
-    uri: "http://host.docker.internal:8187/kafka-streams-service/get-word-count-by-word/{word}"
+    uri: "http://kafka-streams-service:8187/kafka-streams-service/get-word-count-by-word/{word}"
     accept: ${elastic-query-service.webclient.accept-type}
   query-from-analytics-database:
     method: GET
-    uri: "http://host.docker.internal:8188/analytics-service/get-word-count-by-word/{word}"
+    uri: "http://analytics-service:8188/analytics-service/get-word-count-by-word/{word}"
     accept: ${elastic-query-service.webclient.accept-type}
 
 server:
@@ -25,6 +24,10 @@ server:
     context-path: /elastic-query-service
 
 spring:
+  cloud:
+    loadBalancer:
+      ribbon:
+        enabled: false
   security:
     oauth2:
       resourceserver:
