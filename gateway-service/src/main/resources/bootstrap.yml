@@ -1,11 +1,11 @@
 spring:
   application:
-    name: kafka-streams-service
+    name: gateway-service
   profiles:
-    active: kafka_streams
+    active: gateway
   cloud:
     config:
-      name: kafka-streams-service,config-client
+      name: gateway-service,config-client
       uri: http://localhost:8888
       username: spring_cloud_user
       password: ENC(jTycxuxkkuKaaCGM1h8L8c8IdfIKZ1lqOTEBh7n6BVmwZ0PPCux4iQpv30qXm3TE)
@@ -16,14 +16,14 @@ spring:
         max-interval: 7000
         multiplier: 1.5
 
+jasypt:
+  encryptor:
+    password: qwerty@123
+
 eureka:
   client:
     serviceUrl:
       defaultZone: http://host.docker.internal:8761/eureka/
-  instance:
-    lease-expiration-duration-in-seconds: 5
-    lease-renewal-interval-in-seconds: 2
-
-jasypt:
-  encryptor:
-    password: qwerty@123
+#  instance:
+#    lease-expiration-duration-in-seconds: 5
+#    lease-renewal-interval-in-seconds: 2

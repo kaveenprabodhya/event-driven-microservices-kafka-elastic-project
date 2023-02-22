@@ -1,0 +1,12 @@
+#server:
+#  port: 8188
+#  servlet:
+#    context-path: /
+#
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=analytics&binaryTransfer=true&reWriteBatchedInserts=true
+#    username: postgres
+#    password: qwerty@123
+#    driver-class-name: org.postgresql.Driver
+#    platform: postgres
