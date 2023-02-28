@@ -20,6 +20,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 import reactor.netty.http.client.HttpClient;
 import reactor.netty.tcp.TcpClient;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 @Configuration
@@ -37,9 +38,21 @@ public class WebClientConfig {
         this.userConfigData = userData;
     }
 
+    @LoadBalanced
     @Bean("webClientBuilder")
     WebClient.Builder webClientBuilder(ClientRegistrationRepository clientRegistrationRepository,
                                        OAuth2AuthorizedClientRepository oAuth2AuthorizedClientRepository) {
+        HttpClient httpClient = HttpClient.create()
+                .option(ChannelOption.CONNECT_TIMEOUT_MILLIS, elasticQueryWebClientConfigData.getConnectTimeoutMs())
+                .responseTimeout(Duration.ofMillis(elasticQueryWebClientConfigData.getResponseTimeoutMs()))
+                .doOnConnected(conn ->
+                        conn.addHandlerLast(
+                                new ReadTimeoutHandler(elasticQueryWebClientConfigData.getReadTimeoutMs(),
+                                        TimeUnit.MILLISECONDS))
+                                .addHandlerLast(
+                                        new WriteTimeoutHandler(elasticQueryWebClientConfigData.getWriteTimeoutMs(),
+                                                TimeUnit.MILLISECONDS)));
+
         ServletOAuth2AuthorizedClientExchangeFilterFunction oauth2 =
                 new ServletOAuth2AuthorizedClientExchangeFilterFunction(
                         clientRegistrationRepository,
@@ -53,7 +66,7 @@ public class WebClientConfig {
                 .baseUrl(elasticQueryWebClientConfigData.getBaseUrl())
                 .defaultHeader(HttpHeaders.CONTENT_TYPE, elasticQueryWebClientConfigData.getContentType())
                 .defaultHeader(HttpHeaders.ACCEPT, elasticQueryWebClientConfigData.getAcceptType())
-                .clientConnector(new ReactorClientHttpConnector(HttpClient.from(getTcpClient())))
+                .clientConnector(new ReactorClientHttpConnector(httpClient))
                 .apply(oauth2.oauth2Configuration())
                 .codecs(clientCodecConfigurer ->
                         clientCodecConfigurer

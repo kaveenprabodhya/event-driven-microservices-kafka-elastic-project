@@ -20,6 +20,7 @@ public class ElasticQueryServiceConfigData {
         private Integer connectTimeoutMs;
         private Integer readTimeoutMs;
         private Integer writeTimeoutMs;
+        private Integer responseTimeoutMs;
         private Integer maxInMemorySize;
         private String contentType;
         private String acceptType;
