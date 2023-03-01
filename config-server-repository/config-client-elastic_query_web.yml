@@ -8,6 +8,7 @@ elastic-query-web-client:
     connect-timeout-ms: 10000
     read-timeout-ms: 10000
     write-timeout-ms: 10000
+    response-timeout-ms: 20000
     max-in-memory-size: 10485760 # 10MB
     content-type: 'application/vnd.api.v1+json'
     accept-type: 'application/vnd.api.v1+json'
